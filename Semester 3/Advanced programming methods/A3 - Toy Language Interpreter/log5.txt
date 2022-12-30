@@ -1,0 +1,155 @@
+Execution stack: 
+int a;a = 5;int b;b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+int a
+a = 5;int b;b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+a = 5;int b;b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 0
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+a = 5
+int b;b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 0
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+int b;b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+int b
+b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+b = 4;if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 0
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+b = 4
+if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 0
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+if (a <= b) then print(a) else print(b);if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+if (a <= b) then print(a) else print(b)
+if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+print(b)
+if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+if (b != a) then print(Different) else print(Equal)
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+4
+
+Files table: 
+
+Execution stack: 
+print(Different)
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+4
+
+Files table: 
+
+Execution stack: 
+
+Symbol table: 
+a -> 5
+b -> 4
+
+Output list: 
+4
+Different
+
+Files table: 
+

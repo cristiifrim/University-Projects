@@ -1,0 +1,214 @@
+Execution stack: 
+string varf;varf = test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+string varf
+varf = test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+varf = test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+varf = test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> 
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+
+Output list: 
+
+Files table: 
+
+Execution stack: 
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 0
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 0
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 15
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 15
+
+Output list: 
+
+Files table: 
+test.in
+
+Execution stack: 
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 15
+
+Output list: 
+15
+
+Files table: 
+test.in
+
+Execution stack: 
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 15
+
+Output list: 
+15
+
+Files table: 
+test.in
+
+Execution stack: 
+print(varc);CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 50
+
+Output list: 
+15
+
+Files table: 
+test.in
+
+Execution stack: 
+print(varc)
+CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 50
+
+Output list: 
+15
+
+Files table: 
+test.in
+
+Execution stack: 
+CloseReadFile(varf)
+
+Symbol table: 
+varf -> test.in
+varc -> 50
+
+Output list: 
+15
+50
+
+Files table: 
+test.in
+
+Execution stack: 
+
+Symbol table: 
+varf -> test.in
+varc -> 50
+
+Output list: 
+15
+50
+
+Files table: 
+
