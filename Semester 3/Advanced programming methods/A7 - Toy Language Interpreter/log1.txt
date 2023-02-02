@@ -1,0 +1,131 @@
+State #2
+Execution stack: 
+int v;v = 2;print(v)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+int v
+v = 2;print(v)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+int v
+v = 2;print(v)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+v = 2;print(v)
+
+Symbol table: 
+v -> 0
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+v = 2;print(v)
+
+Symbol table: 
+v -> 0
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+v = 2
+print(v)
+
+Symbol table: 
+v -> 0
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+v = 2
+print(v)
+
+Symbol table: 
+v -> 0
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+print(v)
+
+Symbol table: 
+v -> 2
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+print(v)
+
+Symbol table: 
+v -> 2
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+State #2
+Execution stack: 
+
+Symbol table: 
+v -> 2
+
+Output list: 
+2
+
+Files table: 
+
+Heap memory: 
+

@@ -1,0 +1,323 @@
+Execution stack: 
+Ref(int) v;New(v, 20);Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+Ref(int) v
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+Ref(int) v
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (0, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (0, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+New(v, 20)
+Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (0, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+New(v, 20)
+Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (0, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+
+Execution stack: 
+Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+Ref(Ref(int)) a;New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+Ref(Ref(int)) a
+New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+Ref(Ref(int)) a
+New(a, v);print(v);print(a)
+
+Symbol table: 
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+New(a, v);print(v);print(a)
+
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+New(a, v);print(v);print(a)
+
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+New(a, v)
+print(v);print(a)
+
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+New(a, v)
+print(v);print(a)
+
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+
+Execution stack: 
+print(v);print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+print(v);print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+print(v)
+print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+print(v)
+print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+(1, int)
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+print(a)
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+(1, int)
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+(1, int)
+(2, Ref(int))
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
+Execution stack: 
+
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+
+Output list: 
+(1, int)
+(2, Ref(int))
+
+Files table: 
+
+Heap memory: 
+1 -> 20
+2 -> (1, int)
+
